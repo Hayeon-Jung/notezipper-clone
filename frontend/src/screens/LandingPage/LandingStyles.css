@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+.title {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 100px;
+  color: #5160B5;
+}
+.subtteam {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  color: #3D3A8A;
+  font-weight: 700;
+}
+.subtitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 22px;
+  padding-top: 10px;
+  color: #3D3A8A;
+  font-weight: 400;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+.main {
+  background-color: #B5CCEA;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  
+}
+.containerBack{
+  background-color: #B5CCEA;
+  height: 670px;
+  display: flex;
+  align-items: center;
+  background-image: url("../../back.png");
+  margin-left: 15%;
+  margin-right: 15%;
+  background-position: center;
+  background-size: 100% 670px;
+}
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingbutton {
+  width: 130px;
+  height: 40px;
+  font-size: 14px;
+  background-color: #3D3A8A;
+  border: none;
+  color: white;
+}
+.landingbutton:hover {
+  background-color: #ddd2ce;
+  color: #3D3A8A;
+}
+
+@media only screen and (min-width: 1200px) {
+  .buttonContainer {
+    padding: 0 200px;
+  }
+  .title {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .title {
+    font-size: 50px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+  .subtitle{
+    font-size: 15px;
+  }
+  .landingbutton {
+    width: 80px;
+    font-size: 10px;
+  }
+}
